@@ -63,9 +63,9 @@ local colors = {
   git_text = '#5a9a8c',        -- Git text (cyan)
 
   -- Selection and search
-  selection = '#e85d0433',     -- Selection background
-  search = '#d4a01740',        -- Search match background
-  visual = '#e85d0450',        -- Visual mode selection
+  selection = '#36240f',     -- Selection background
+  search = '#3d3913',        -- Search match background
+  visual = '#502c0e',        -- Visual mode selection
   cursor = '#e85d04',          -- Cursor color
   cursorline = '#0f1f1a',      -- Current line background
 
@@ -266,15 +266,15 @@ hl('GitSignsDelete', { fg = colors.git_delete })
 hl('GitSignsAddNr', { fg = colors.git_add })
 hl('GitSignsChangeNr', { fg = colors.git_change })
 hl('GitSignsDeleteNr', { fg = colors.git_delete })
-hl('GitSignsAddLn', { bg = '#4a8c5c21' })
-hl('GitSignsChangeLn', { bg = '#d4a01721' })
-hl('GitSignsDeleteLn', { bg = '#c92a2a21' })
+hl('GitSignsAddLn', { bg = '#12251c' })
+hl('GitSignsChangeLn', { bg = '#242813' })
+hl('GitSignsDeleteLn', { bg = '#231915' })
 
 -- Diff
-hl('DiffAdd', { fg = colors.none, bg = '#4a8c5c21' })
-hl('DiffChange', { fg = colors.none, bg = '#d4a01721' })
-hl('DiffDelete', { fg = colors.git_delete, bg = '#c92a2a21' })
-hl('DiffText', { fg = colors.none, bg = '#d4a01733' })
+hl('DiffAdd', { fg = colors.none, bg = '#12251c' })
+hl('DiffChange', { fg = colors.none, bg = '#242813' })
+hl('DiffDelete', { fg = colors.git_delete, bg = '#231915' })
+hl('DiffText', { fg = colors.none, bg = '#323213' })
 
 -- Telescope
 hl('TelescopeBorder', { fg = colors.border, bg = colors.bg_elevated })
